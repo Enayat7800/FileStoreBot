@@ -1,0 +1,2 @@
+python-3.8.5
+gunicorn app:app & python3 bot.py
