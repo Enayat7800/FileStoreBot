@@ -24,3 +24,13 @@ def main():
 
 if __name__ == "__main__":
     main()
+from flask import Flask
+app = Flask()
+
+@app.route('/')
+def hello_world():
+    return 'GreyMatters'
+
+
+if name == "main":
+    app.run()
